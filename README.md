@@ -63,4 +63,4 @@ This project is open-source and available under the MIT License.
 ## Contact
 For queries or support, contact:  
 - **Vartul Shrivastava** – [vartul.shrivastava@gmail.com](mailto:vartul.shrivastava@gmail.com)  
-- **Shekhar Shukla** – [shekhars@iimidr.ac.in](mailto:shekhars@iimidr.ac.in)
+- **Prof. Shekhar Shukla** – [shekhars@iimidr.ac.in](mailto:shekhars@iimidr.ac.in)
