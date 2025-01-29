@@ -1,3 +1,5 @@
+![SemanticSapience-VSS Header](app/static/images/SS-VSS-header.png "SemanticSapience-VSS Header")
+
 # SemanticSapience-VSS
 ### A Secure Visualization and Simulation Suite for Text Analytics with Gen-AI-enabled Methodologies
 
