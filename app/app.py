@@ -226,7 +226,7 @@ def export_project():
         return send_file(
             buffer,
             as_attachment=True,
-            download_name="LinguaSemantica_Project.lspvss",
+            download_name="Semantic_Sapience_Project.ssvss",
             mimetype="application/json"
         )
     except Exception as e:

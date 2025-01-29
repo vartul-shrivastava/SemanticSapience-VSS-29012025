@@ -1,12 +1,12 @@
-![SemanticSapience-VSS Header](app/static/images/SS-VSS-header.png "SemanticSapience-VSS Header")
+![Semantic-Sapience-VSS Header](app/static/images/SS-VSS-header.png "Semantic-Sapience-VSS Header")
 
-# SemanticSapience-VSS
+# Semantic-Sapience-VSS
 ### A Secure Visualization and Simulation Suite for Text Analytics with Gen-AI-enabled Methodologies
 
 ---
 
 ## Overview
-SemanticSapience-VSS is an AES-GCM-secured NLP toolkit designed for advanced text analytics. It integrates **Word Cloud Analysis, Topic Modeling, and Sentiment Analysis**, along with **Gen-AI-powered methodologies** such as **Zero-Shot Sentiment Analysis and Aspect-Based Sentiment Analysis (ABSA)**.
+Semantic-Sapience-VSS is an AES-GCM-secured NLP toolkit designed for advanced text analytics. It integrates **Word Cloud Analysis, Topic Modeling, and Sentiment Analysis**, along with **Gen-AI-powered methodologies** such as **Zero-Shot Sentiment Analysis and Aspect-Based Sentiment Analysis (ABSA)**.
 
 ---
 
@@ -32,7 +32,7 @@ SemanticSapience-VSS is an AES-GCM-secured NLP toolkit designed for advanced tex
 ### Setup Instructions
 ```sh
 # Clone the repository
-git clone https://github.com/vartul-shrivastava/SemanticSapience-VSS-29012025.git
+git clone https://github.com/vartul-shrivastava/Semantic-Sapience-VSS-29012025.git
 cd app
 
 # Install dependencies

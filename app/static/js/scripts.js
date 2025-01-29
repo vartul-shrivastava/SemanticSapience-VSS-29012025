@@ -2,8 +2,6 @@ const modalBackdrop = document.getElementById('modalBackdrop');
 const systemTrayLinks = document.getElementById('systemTrayLinks');
 const statsCardsWrapper = document.getElementById('statsCardsWrapper');
 
-
-
 let currentFile = null;        // The file object uploaded by the user
 let currentFileBase64 = null;  // Base64 representation of that file’s contents
 let currentFileName = null;    // Keep track of the file name
@@ -2098,7 +2096,7 @@ async function generateKeyFromPassword(password) {
   return crypto.subtle.deriveKey(
     {
       name: "PBKDF2",
-      salt: encoder.encode("SemanticSapience-VSS"), // Add a fixed salt
+      salt: encoder.encode("Semantic-Sapience-VSS"), // Add a fixed salt
       iterations: 100000,
       hash: "SHA-256",
     },

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>SemanticSapience-VSS Dashboard</title>
+  <title>Semantic Sapience-VSS Dashboard</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
   <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.png') }}">
 </head>
@@ -11,7 +11,7 @@
 <body><!-- Overlay for re-entering password when decryption fails -->
   <div id="decryptionOverlay" class="overlay" style="display: none; z-index: 9999;">
     <div class="overlay-content">
-      <img src="{{ url_for('static', filename='images/SemanticSapience-VSS-DevLogo.svg') }}" alt="SemanticSapienceVSS Logo" class="overlay-logo">
+      <img src="{{ url_for('static', filename='images/SemanticSapience-VSS-DevLogo.svg') }}" alt="Semantic SapienceVSS Logo" class="overlay-logo">
       <label for="overlayPasswordInput">Re-enter Password. Please <b>enter the correct password to decrypt</b> as current session key cannot decrypt it:</label>
       <input type="password" id="overlayPasswordInput" />
       <div class="overlay-buttons">
@@ -42,14 +42,14 @@
     <div id="welcomeOverlay" class="welcome-overlay">
       <div class="overlay-content">
         <div class="supp-wrap" style="display: flex;">
-          <img src="{{ url_for('static', filename='images/SemanticSapience-VSS-DevLogo.svg') }}" alt="SemanticSapienceVSS Logo" class="overlay-logo">
+          <img src="{{ url_for('static', filename='images/SemanticSapience-VSS-DevLogo.svg') }}" alt="Semantic SapienceVSS Logo" class="overlay-logo">
         </div>
           <p>Before you get started, please set a session password to secure your project files.</p>
-          <p>By default, <b><code>SemanticSapiencevssuser</code></b> is the session password (It is recommended to change it)</p>
-          <input type="password" id="sessionPassword" placeholder="Enter Session Password" value="SemanticSapiencevssuser" required>
+          <p>By default, <b><code>semanticsapiencevss</code></b> is the session password (It is recommended to change it)</p>
+          <input type="password" id="sessionPassword" placeholder="Enter Session Password" value="semanticsapiencevss" required>
           <p>This password will be used to encrypt and decrypt your project files during this session.</p>
         <p>
-          The platform supports a wide range of features, each tailored to enhance your data analysis journey. Whether you are uncovering hidden patterns through advanced topic modeling techniques like LDA, BERTopic, NMF, and LSA, or creating visually impactful word clouds using methods like TF-IDF, Frequency Analysis, Collocation, and Semantic Analysis, SemanticSapienceVSS ensures a seamless and powerful experience. For sentiment analysis, the tool offers multiple approaches, including rule-based analysis, deep learning models, aspect-based sentiment analysis (ABSA), and zero-shot sentiment analysis.
+          The platform supports a wide range of features, each tailored to enhance your data analysis journey. Whether you are uncovering hidden patterns through advanced topic modeling techniques like LDA, BERTopic, NMF, and LSA, or creating visually impactful word clouds using methods like TF-IDF, Frequency Analysis, Collocation, and Semantic Analysis, Semantic SapienceVSS ensures a seamless and powerful experience. For sentiment analysis, the tool offers multiple approaches, including rule-based analysis, deep learning models, aspect-based sentiment analysis (ABSA), and zero-shot sentiment analysis.
         </p>
         <button class="close-overlay-btn" onclick="closeWelcomeOverlay()">Get Started</button>
         <button id="checkAIDependencyBtn" class="close-overlay-btn">Check AI Dependency</button>
@@ -58,7 +58,7 @@
     
   <!-- ===== Loading Overlay ===== -->
   <div id="loadingOverlay" style="display: none;">
-    <img src="{{ url_for('static', filename='images/SemanticSapience-VSS-GrayDevLogo.svg') }}" alt="SemanticSapience-VSS" style="width: 50%; margin: 20px;">
+    <img src="{{ url_for('static', filename='images/SemanticSapience-VSS-GrayDevLogo.svg') }}" alt="Semantic Sapience-VSS" style="width: 50%; margin: 20px;">
     <div class="load-wrap" style="display: flex; align-items: center; gap: 0.5rem;">
       <div class="spinner"></div>
       <p style="padding-bottom: 15px;">Your Request is under process...
@@ -72,7 +72,7 @@
     <!-- Top Navigation -->
     <header class="top-nav">
       <div class="brand-area">
-        <img src="{{ url_for('static', filename='images/SemanticSapience-VSS-PageLogo.svg') }}" alt="SemanticSapience-VSS" style="width: 200px;">
+        <img src="{{ url_for('static', filename='images/SemanticSapience-VSS-PageLogo.svg') }}" alt="Semantic Sapience-VSS" style="width: 200px;">
       </div>
       <nav class="nav-links">
         <!-- Hidden file input for CSV/XLSX -->
@@ -206,7 +206,7 @@ xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
   <div id="defaultContent" class="default-content">
     <img src="{{ url_for('static', filename='images/SemanticSapience-VSS-GrayDevLogo.svg') }}" alt="Default Display Image" class="default-image">
     <p class="default-description">
-      Welcome to SemanticSapience-VSS Dashboard! Select or create a modal to begin your analysis. <br> Import the .ssvss project file or upload CSV/XLSX to defreeze the modal creation mechanism.
+      Welcome to Semantic Sapience-VSS Dashboard! Select or create a modal to begin your analysis. <br> Import the .ssvss project file or upload CSV/XLSX to defreeze the modal creation mechanism.
     </p>  
   </div>
         <!-- Modal Backdrop -->
