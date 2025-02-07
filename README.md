@@ -1,10 +1,5 @@
 ![Semantic-Sapience-VSS Header](app/static/images/SS-VSS-header.png "Semantic-Sapience-VSS Header")
 
-## Overview
-Semantic-Sapience-VSS is an AES-GCM-secured NLP toolkit designed for advanced text analytics. It integrates **Word Cloud Analysis, Topic Modeling, and Sentiment Analysis**, along with **Gen-AI-powered methodologies** such as **Zero-Shot Sentiment Analysis and Aspect-Based Sentiment Analysis (ABSA)**.
-
----
-
 ## Features
 - Implements **AES-GCM encryption** to secure project files with customizable session keys.  
 - Supports multiple **word cloud analysis** methods, including **TF-IDF-based, frequency-based, collocation-based, and semantic word clouds** using embeddings.  
