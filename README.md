@@ -1,10 +1,5 @@
 ![Semantic-Sapience-VSS Header](app/static/images/SS-VSS-header.png "Semantic-Sapience-VSS Header")
 
-# Semantic-Sapience-VSS
-### A Secure Visualization and Simulation Suite for Text Analytics with Gen-AI-enabled Methodologies
-
----
-
 ## Overview
 Semantic-Sapience-VSS is an AES-GCM-secured NLP toolkit designed for advanced text analytics. It integrates **Word Cloud Analysis, Topic Modeling, and Sentiment Analysis**, along with **Gen-AI-powered methodologies** such as **Zero-Shot Sentiment Analysis and Aspect-Based Sentiment Analysis (ABSA)**.
 
@@ -62,7 +57,3 @@ python app.py
 **MIT License**  
 This project is open-source and available under the MIT License.
 
-## Contact
-For queries or support, contact:  
-- **Vartul Shrivastava** – [vartul.shrivastava@gmail.com](mailto:vartul.shrivastava@gmail.com)  
-- **Prof. Shekhar Shukla** – [shekhars@iimidr.ac.in](mailto:shekhars@iimidr.ac.in)
